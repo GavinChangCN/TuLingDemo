@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="70dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/time" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_below="@+id/time"
+        android:layout_alignParentRight="true"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="10dp"
+        android:src="@drawable/visitor"/>
+
+    <TextView
+        android:layout_below="@+id/time"
+        android:layout_marginLeft="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:gravity="right"
+        android:text="    "
+        android:background="@drawable/rightchatbox"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/iv"
+        android:layout_toStartOf="@+id/iv" />
+
+
+</RelativeLayout>

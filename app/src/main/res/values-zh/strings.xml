@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小灵智能平台</string>
+    <string name="action_settings">设置</string>
+    <string name="send">发送</string>
+    <string-array name="welcome_tips">
+        <item>主人，小灵这厢有礼了！</item>
+        <item>主人，今天继续加油！</item>
+        <item>亲爱的，我想死你了！</item>
+        <item>欢迎回来！</item>
+        <item>主人，你好，我是小灵，很高兴为您服务！</item>
+    </string-array>
+</resources>
